@@ -1,0 +1,255 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+    font-size: 16px;
+    background-color: #faf4f2;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+/* <----------- HEADER -----------> */
+
+.header {
+    background-color: #f8e1db;
+}
+
+.header__container {
+    padding: 10px 40px;
+}
+
+.header__bar>ul {
+    list-style-type: none;
+}
+
+.header__bar li {
+    display: inline-block;
+    padding: 6px;
+}
+
+.header__bar li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* <----------- CAROUSEL -----------> */
+
+.carousel {
+    background-image: url(../img/BG.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+/* <----------- ACTIVITIES -----------> */
+
+.activities__container {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.activities__title h2 {
+    color: grey;
+}
+
+.activities__item {
+    width: calc(100% / 4);
+    padding: 20px;
+    float: left;
+}
+
+.item__wrapper {
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 50px;
+    text-align: center;
+}
+
+.item__bg {
+    position: relative;
+}
+
+.item__bg img {
+    border-radius: 16px;
+    background-size: cover;
+    width: 100%;
+}
+
+.item__heart {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #e76f51;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.item__wrapper h3 {
+    margin: 10px 0;
+}
+
+.item__wrapper p {
+    color: gray;
+    margin: 10px 0;
+}
+
+.item__wrapper button {
+    color: gray;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 60px;
+    font-size: 16px;
+    background-color: #e8e8e8;
+    cursor: pointer;
+}
+
+.item__wrapper button:hover {
+    background-color: gray;
+    color: #e8e8e8;
+}
+
+.activities__footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.activities__footer button {
+    color: #e76f51;
+    border-radius: 20px;
+    border: 1px solid #e76f51;
+    font-size: 16px;
+    padding: 10px 60px;
+    background-color: #faf4f2;
+    cursor: pointer;
+}
+
+.activities__footer button:hover {
+    background-color: #e76f51;
+    color: #faf4f2;
+}
+
+/* <----------- CONTACT -----------> */
+
+.contact {
+    background-color: #f8e1db;
+    font-size: 18px;
+}
+
+.contact__container {
+    background-image: url(../img/mask.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -430px;
+    height: auto;
+    padding: 20px 40px;
+    color: gray;
+}
+
+.contact__logo img {
+    max-width: 100%;
+}
+
+.contact__logo,
+.contact__info {
+    float: left;
+    width: 50%;
+}
+
+.contact__info {
+    padding: 50px 0;
+    width: 48%;
+}
+
+.contact__info p,
+.contact__icon {
+    padding: 10px 0;
+}
+
+.contact__icon-col {
+    float: left;
+    width: fit-content;
+}
+
+.contact__icon-col ul li {
+    margin-top: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.contact__icon-col li>img {
+    cursor: pointer;
+}
+
+.contact__icon-col li>i {
+    font-size: 24px;
+    color: #e76f51;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.contact__icon-col li>i:hover {
+    opacity: 0.8;
+}
+
+/* <----------- FOOTER -----------> */
+.footer {
+    margin-top: 70px;
+    background-color: #f8e1db;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.footer__container {
+    padding: 100px 50px;
+    padding-bottom: 0;
+}
+
+.footer__intro {
+    float: left;
+    width: 40%;
+}
+
+.footer__intro p {
+    margin-top: 20px;
+}
+
+.footer__info {
+    float: left;
+    width: 55%;
+    margin-left: 2%;
+}
+
+.footer__info-col {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+
+.footer__info-col ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.footer__info-col li {
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.footer__copyright {
+    padding: 40px;
+    text-align: center;
+}
